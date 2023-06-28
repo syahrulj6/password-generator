@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #19376d;
+  --primary-text-color: #202020;
+  --bg-color: #0b2447;
+
+  --success-color: #198754;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+}
+
+.weak {
+  color: var(--danger-color);
+}
+
+.medium {
+  color: var(--warning-color);
+}
+
+.strong {
+  color: var(--success-color);
+}
